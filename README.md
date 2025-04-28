@@ -1,6 +1,6 @@
 
 # Playing Atari Pong with Deep Reinforcement Learning
-This project is based off the paper "Playing Atari with Deep Reinforcement Learning", written by various co-authors at DeepMind Technologies. Focusing exclusivley on the Pong environment, we implemented code to test the effectiveness and efficiency of the algorithm, utilizing the core ideas of the Deep Q-Network (DQN).
+This project is largely derived from the paper "Playing Atari with Deep Reinforcement Learning", written by various co-authors at DeepMind Technologies. Focusing exclusivley on the Pong environment, we implemented code to test the effectiveness and efficiency of the algorithm presented in the paper, utilizing the core ideas of the Deep Q-Network (DQN).
 
 ## Project Structure
 The code is provided as a Jupyter Notebook (.ipynb file).
@@ -46,10 +46,10 @@ pip install gymnasium[atari,accept-rom-license] torch torchvision numpy ale-py o
 7. Run remaining cells to produce model evaluation metrics, training curve plots, and the average episode reward plot.
 
 ## Notes
-Training an agent from scratch can take several hours even on a GPU. It will depend on the GPU implemented.
+Training an agent from scratch can take several hours even on a GPU. It will depend on the stregnth of the GPU implemented.
 
 ## Results
-The agent will successfully learns to play Pong competitively against the built-in AI opponent.
+The agent successfully learns to play Pong competitively against the built-in AI opponent.
 
 ## Acknowledgments
-Based on [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602).
+Algorithm based on one presented in [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602).
