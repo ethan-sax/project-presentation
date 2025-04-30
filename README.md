@@ -46,7 +46,7 @@ pip install gymnasium[atari,accept-rom-license] torch torchvision numpy ale-py o
 7. Run remaining cells to produce model evaluation metrics, training curve plots, and the average episode reward plot.
 
 ## Notes
-Training an agent from scratch can take several hours even on a GPU. It will depend on the stregnth of the GPU implemented.
+Training an agent from scratch can take several hours even on a GPU. It will depend on the strength of the GPU implemented.
 
 ## Results
 The agent successfully learns to play Pong competitively against the built-in AI opponent.
